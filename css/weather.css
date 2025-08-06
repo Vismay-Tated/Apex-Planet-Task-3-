@@ -1,0 +1,10 @@
+#weather-card {
+    transition: background 0.5s ease-in-out;
+}
+.weather-bg-clear { background-image: linear-gradient(to top, #378de5 0%, #a3c8ee 100%); }
+.weather-bg-clouds { background-image: linear-gradient(to top, #6c7a89 0%, #b3c1cd 100%); }
+.weather-bg-rain { background-image: linear-gradient(to top, #2c3e50 0%, #485563 100%); }
+.weather-bg-snow { background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%); color: #334155 !important; }
+.weather-bg-snow .text-white { color: #334155 !important; }
+.weather-bg-thunderstorm { background-image: linear-gradient(to top, #1F1C2C 0%, #928DAB 100%); }
+.weather-bg-default { background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%); }

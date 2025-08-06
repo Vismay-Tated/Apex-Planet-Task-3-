@@ -1,0 +1,13 @@
+.quiz-option {
+    transition: background-color 0.2s ease;
+}
+.quiz-option.correct {
+    background-color: #22c55e !important; /* green-500 */
+    color: white;
+    border-color: #16a34a;
+}
+.quiz-option.incorrect {
+    background-color: #ef4444 !important; /* red-500 */
+    color: white;
+    border-color: #dc2626;
+}
